@@ -6,5 +6,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    baseUrl: 'https://qa.hiring.evenhealthcare.com',
+    chromeWebSecurity: false, // Allows navigation to any superdomain without cross-origin errors
   },
 });
